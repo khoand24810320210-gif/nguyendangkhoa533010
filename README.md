@@ -26,12 +26,14 @@ Giao diện khi thanh toán xong, bàn có khách trở thành bàn trống
 HƯỚNG DẪN CÀI ĐẶT VÀ CHẠY DỰ ÁN:
 Khởi tạo CSDL:
 
+Khởi tạo CSDL:
+1
 Mở file Database.sql có sẵn trong thư mục dự án bằng SQL Server Management Studio (SSMS) hoặc Visual Studio.
 Chạy toàn bộ script (Execute) để tự động tạo CSDL CafePOSDB cùng các bảng và dữ liệu mẫu.
 Cấu hình chuỗi kết nối:
-
+2
 Mở file DBConnect.cs.
 Kiểm tra và đổi lại Data Source cho khớp với tên SQL Server trên máy chấm (Mặc định đang để kết nối tới (localdb)\MSSQLLocalDB).
 Chạy chương trình:
-
+3
 Nhấn F5 (hoặc nút Start) trên Visual Studio để chạy hệ thống.
